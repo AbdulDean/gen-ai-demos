@@ -71,7 +71,7 @@ Parameters:
     
   AllowedDomains:
     Type: String
-    Default: EDIT_ME.com
+    Default: customerdomain.com
     Description: Comma separated domain names    
   
     
@@ -204,7 +204,8 @@ Parameters:
   GenAIPublicGithubRepo:
     Type: String
     # FIX ME - make sure its pointing to new public repo
-    Default: "https://github.com/aws-samples/gen-ai-demos"
+    #Default: "https://github.com/aws-samples/gen-ai-demos"
+    Default: "https://github.com/AbdulDean/gen-ai-demos"
     
     
   DemoSquadGenAICodeSampleZip:

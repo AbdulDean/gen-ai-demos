@@ -168,14 +168,12 @@ with tab1:
             ### Available demos \n\n
             - **[GenAI Call Analyzer](/GenAI_call_analyzer):** Call transcription, analytics, summarization, auto-prompts and conversational insights using Amazon Transcribe and a LLM \n
             - **[GenAI Content Analyzer](/GenAI_content_analyzer):** Upload images, MS Word, Excel, PPT, PDF, CSV, HTML,  or text files, get a summary, auto-prompts and conversational insights using Amazom Rekognition and a LLM \n
-            - **[GenAI Product Ideator](/GenAI_product_ideator):** Create product images, description and a press release with just a few words \n
         ''')
     elif industry == 'Retail':
         st.markdown('''
             ### Available demos \n\n
             - **[GenAI Call Analyzer](/GenAI_call_analyzer):** Call transcription, analytics, summarization, auto-prompts and conversational insights using Amazon Transcribe and a LLM \n
             - **[GenAI Content Analyzer](/GenAI_content_analyzer):** Upload images, MS Word, Excel, PPT, PDF, CSV, HTML, or text files, get a summary, auto-prompts and conversational insights using Amazom Rekognition and a LLM \n
-            - **[GenAI Product Ideator](/GenAI_product_ideator):** Create product images, description and a press release with just a few words \n
             - **[GenAI Sales Accelerator](/SalesAccelerator):** Analysis of image, description and summarization \n
         ''')
     elif industry == 'Transport':
@@ -183,14 +181,12 @@ with tab1:
             ### Available demos \n\n
             - **[GenAI Call Analyzer](/GenAI_call_analyzer):** Call transcription, analytics, summarization, auto-prompts and conversational insights using Amazon Transcribe and a LLM \n
             - **[GenAI Content Analyzer](/GenAI_content_analyzer):** Upload images, MS Word, Excel, PPT, PDF, CSV, HTML,  or text files, get a summary, auto-prompts and conversational insights using Amazom Rekognition and a LLM \n
-            - **[GenAI Product Ideator](/GenAI_product_ideator):** Create product images, description and a press release with just a few words \n
         ''')
     elif industry == 'Technology':
         st.markdown('''
             ### Available demos \n\n
             - **[GenAI Call Analyzer](/GenAI_call_analyzer):** Call transcription, analytics, summarization, auto-prompts and conversational insights using Amazon Transcribe and a LLM \n
             - **[GenAI Content Analyzer](/GenAI_content_analyzer):** Upload images, MS Word, Excel, PPT, PDF, CSV, HTML, or text files, get a summary, auto-prompts and conversational insights using Amazom Rekognition and a LLM \n
-            - **[GenAI Product Ideator](/GenAI_product_ideator):** Create product images, description and a press release with just a few words \n
         ''')
 with tab2:
     usecase = st.selectbox(
@@ -223,12 +219,11 @@ with tab2:
         st.markdown('''
             ### Available demos \n\n
             - **[GenAI Agile Guru](/GenAI_Agile_Guru):** Generate Agile Sprint artifacts in seconds \n
-            - **[GenAI Product Ideator](/GenAI_product_ideator):** Create product images, description and a press release with just a few words \n
         ''')
 with tab3:
     function = st.selectbox(
         '**Select a job function to begin**',
-        ('Select...', 'Research & Development', 'Product Management', 'Sales & Marketing', 'Engineering', 'Content Analysis', 'Management'))
+        ('Select...', 'Research & Development','Sales & Marketing', 'Engineering', 'Content Analysis', 'Management'))
 
     if function == 'Research & Development':
         st.markdown('''
@@ -237,16 +232,15 @@ with tab3:
             - **[GenAI Content Analyzer](/GenAI_content_analyzer):** Upload images, csv or text files, get a summary, auto-prompts and conversational insights using an LLM \n
             - **[GenAI Enterprise Search](/GenAI_enterprise_search_interpreter):** Intelligent enterprise search, auto-prompts and conversational interpretation using Amazon Kendra and a LLM \n
         ''')
-    elif function == 'Product Management':
-        st.markdown('''
-            ### Available demos
-            - **[GenAI Product Ideator](/GenAI_product_ideator):** Create product images, description and a press release with just a few words \n
-        ''')   
+#    elif function == 'Product Management':
+#        st.markdown('''
+#            ### Available demos
+#            - **[GenAI Product Ideator](/GenAI_product_ideator):** Create product images, description and a press release with just a few words \n
+#        ''')   
     elif function == 'Sales & Marketing':
         st.markdown('''
             ### Available demos \n\n
             - **[GenAI Enterprise Search](/GenAI_enterprise_search_interpreter):** Intelligent enterprise search, auto-prompts and conversational interpretation using Amazon Kendra and a LLM \n
-            - **[GenAI Product Ideator](/GenAI_product_ideator):** Create product images, description and a press release with just a few words \n
         ''')
     elif function == 'Engineering':
         st.markdown('''
