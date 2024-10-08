@@ -71,7 +71,7 @@ Parameters:
     
   AllowedDomains:
     Type: String
-    Default: customerdomain.com
+    Default: customersdomain.com
     Description: Comma separated domain names    
   
     
